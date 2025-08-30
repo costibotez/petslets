@@ -1,0 +1,44 @@
+/*
+Theme Name: Astra-child
+Author: 
+Description: Your description goes here
+Version: 1.0
+Template: astra
+
+This is the child theme for Astra theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+
+.elementor-widget .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+.site-footer {
+	display: none;
+}
+
+.pl-form input[type="text"] {
+	box-shadow: none !important;
+	padding: 25px 20px !important;
+	border: solid 1px #dadada !important;
+}
+
+.pl-form .ginput_product_price_wrapper label {
+	display: none;
+}
+
+.pl-form .price-field input[type="text"], 
+.pl-form .total-field input[type="text"] {
+	padding: 0 !important;
+	border: none !important;
+}
+
+.pl-form input[type="submit"] {
+	background: none !important;
+	border: solid 2px #17113B !important;
+	border-radius: 30px !important;
+	color: #17113B !important;
+	padding: 20px 30px !important;
+}
