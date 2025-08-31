@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all single posts.
+ * The template for displaying Success Story posts.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
@@ -9,11 +9,12 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
+    exit; // Exit if accessed directly.
 }
 
-get_header(); ?>
+get_header();
 
-<?php the_content(); ?>
+get_template_part( 'template-parts/content', 'success-story' );
 
-<?php get_footer(); ?>
+get_footer();
+
